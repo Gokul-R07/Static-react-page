@@ -13,12 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject" 
-
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +37,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  } ,
-  "homepage": "http://Gokul-R07.github.io/Static_page_react"
+  }
 }
