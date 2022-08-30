@@ -1,0 +1,40 @@
+*{ margin:0;
+}
+body {
+    font-family:'Inter', sans-serif; 
+    color: white;
+} 
+nav{
+    display: flex; 
+    background-color: black; 
+    padding: 10px; 
+    align-items: center;   
+    height: 70px;
+} 
+img{
+    width:5%;  
+    height: 50px; 
+    object-fit: contain; 
+    margin-left: 20px;
+} 
+nav h3{
+    color: #61DAFB;
+    margin-right: auto; 
+    padding-left: 10px;
+} 
+.mainContent{
+    background-color: rgb(45, 43, 43); 
+    height: 80vh; 
+    padding: 30px; 
+    background-image: url(./react-removebg-preview.png); 
+    background-repeat:no-repeat; 
+    background-position: 1295px 60px;
+}  
+
+ li::marker{
+    color: red; 
+    font-size: 20px;
+ }
+ul li{
+    padding-block: 10px;
+}
